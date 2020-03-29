@@ -27,5 +27,30 @@ body{
   overflow: hidden;
   clip: rect(0,0,0,0);
   clip-path: polygon(0,0,0,0);
-
+}
+/*해더*/
+/*브랜드*/
+.brand a{
+  display: block;
+  width: 215px;
+}
+.brand img{
+  padding: 25px;
+}
+/* 버튼 디자인 */
+.app-header .button .ir,
+.app-header .button .close {
+  cursor: pointer;
+}
+.app-header .button.is-open-menu {
+  user-select: none;
+  padding: 20px;
+  background: #ffffff;
+  border: 0;
+}
+.button.is-open-menu .ir {
+  background: url(../images/navigation-button.gif);
+  display: block;
+  width: 26px;
+  height: 22px;
 }
